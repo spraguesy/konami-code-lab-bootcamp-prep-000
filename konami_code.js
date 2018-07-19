@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0;
 
-const input = document.getElementById('')
+const input = document.getElementById('mocha');
 
 function init(e) {
   // your code here
@@ -30,12 +30,11 @@ function init(e) {
   } else {
       console.log('fired');
       index = 0;
-    }
+  }
 }
 
 document.body.addEventListener ('keydown', (event) => {
   let keyName = event.key;
-  console.log('fired');
   init(keyName);
 });
 
