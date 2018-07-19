@@ -13,6 +13,8 @@ const codes = [
 
 let index = 0;
 
+const input = document.getElementById('')
+
 function init(e) {
   // your code here
   
